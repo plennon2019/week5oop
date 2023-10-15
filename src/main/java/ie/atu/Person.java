@@ -5,4 +5,9 @@ public class Person {
     String lastName;
     int age;
 
+    public void displayInfo()
+    {
+        System.out.println("FirstName is " + firstName + " LastName" + lastName + " Age " + age);
+    }
+
 }
